@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Customer;
+use App\Models\Material;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -15,6 +17,9 @@ class CreateCustomerMaterialTable extends Migration
     {
         Schema::create('customer_material', function (Blueprint $table) {
             $table->id();
+            $table->foreignIdFor(Customer::class)->constrained();
+            $table->foreignIdFor(Material::class)->constrained();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
