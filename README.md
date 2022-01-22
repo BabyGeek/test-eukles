@@ -14,22 +14,22 @@ Test réalisé en vue d'un entretien avec l'entreprise Eukles.
 
 Téchnologie utilisées :
 
-PHP 7.4
-
-Laravel 8.8
+- PHP 7.4
+- Laravel 8.8
 
 
 Choix pour la base de donnée :
 
-Clients => customers (id, firstname, lastname)
-Matériels => materials (id, title, description, price)
-Liens => customer_material (id, customer_id, material_id)
+- Clients => customers (id, firstname, lastname)
+- Matériels => materials (id, title, description, price)
+- Liens => customer_material (id, customer_id, material_id)
 
 Pour initialiser le projet :
 
+```
 composer install
 php artisan migrate
-
+```
 
 Ajouter des données fake au projet :
 
