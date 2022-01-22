@@ -28,25 +28,24 @@ Pour initialiser le projet :
 
 ```
 composer install
+```
+```
 php artisan migrate
 ```
 
 Ajouter des données fake au projet :
 
 ```php
-
 $ php artisan tinker
-
 
 >>> Customer::factory()->count(100)->create()
 >>> Material::factory()->count(5000)->create()
-
 ```
 
 Pour lancer le serveur local : 
 
 ```
-$ php artisan serve
+php artisan serve
 ```
 
 
