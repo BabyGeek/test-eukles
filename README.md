@@ -15,6 +15,7 @@ Test réalisé en vue d'un entretien avec l'entreprise Eukles.
 Téchnologie utilisées :
 
 PHP 7.4
+
 Laravel 8.8
 
 
