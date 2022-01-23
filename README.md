@@ -15,7 +15,7 @@ Téchnologie utilisées :
 
 - PHP 7.4
 - Laravel 8.8
-
+- MySQL
 
 Choix pour la base de donnée :
 
