@@ -63,6 +63,7 @@ Fonctionnalités disponibles :
 - Lien entre un matériel et un client
 
 Recherches select2 en ajax pour selection client et matériel
+
 Ajout d'un template, pagination et navbar basiques
 
 ---
