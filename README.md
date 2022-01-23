@@ -8,30 +8,6 @@
 </p>
 
 ## About the project
-<a href="https://ibb.co/PTwdcvy"><img src="https://i.ibb.co/9ws7bk0/Capture-d-cran-2022-01-23-18-05-56.png" alt="Capture-d-cran-2022-01-23-18-05-56" border="0" /></a>
-
----
-
-
-<a href="https://ibb.co/k9PfxwN"><img src="https://i.ibb.co/dLHqrV8/Capture-d-cran-2022-01-23-18-06-53.png" alt="Capture-d-cran-2022-01-23-18-06-53" border="0" /></a>
-
----
-
-<a href="https://ibb.co/17h4Q05"><img src="https://i.ibb.co/YPYVQNM/Capture-d-cran-2022-01-23-18-06-20.png" alt="Capture-d-cran-2022-01-23-18-06-20" border="0" /></a>
-
----
-
-<a href="https://ibb.co/G0Jk93C"><img src="https://i.ibb.co/kxy0J6q/Capture-d-cran-2022-01-23-18-06-28.png" alt="Capture-d-cran-2022-01-23-18-06-28" border="0" /></a>
-
----
-
-
-<a href="https://ibb.co/jWwkjzf"><img src="https://i.ibb.co/5njhJk4/Capture-d-cran-2022-01-23-18-06-42.png" alt="Capture-d-cran-2022-01-23-18-06-42" border="0" /></a>
-
----
-
-<a href="https://ibb.co/2PHgVM9"><img src="https://i.ibb.co/Y8wpndC/Capture-d-cran-2022-01-23-18-06-33.png" alt="Capture-d-cran-2022-01-23-18-06-33" border="0" /></a>
-
 
 Téchnologie utilisées :
 
@@ -91,7 +67,34 @@ Ajout d'un template, pagination et navbar basiques
 
 ---
 
+## Screenshots
 
+
+<a href="https://ibb.co/PTwdcvy"><img src="https://i.ibb.co/9ws7bk0/Capture-d-cran-2022-01-23-18-05-56.png" alt="Capture-d-cran-2022-01-23-18-05-56" border="0" /></a>
+
+---
+
+
+<a href="https://ibb.co/k9PfxwN"><img src="https://i.ibb.co/dLHqrV8/Capture-d-cran-2022-01-23-18-06-53.png" alt="Capture-d-cran-2022-01-23-18-06-53" border="0" /></a>
+
+---
+
+<a href="https://ibb.co/17h4Q05"><img src="https://i.ibb.co/YPYVQNM/Capture-d-cran-2022-01-23-18-06-20.png" alt="Capture-d-cran-2022-01-23-18-06-20" border="0" /></a>
+
+---
+
+<a href="https://ibb.co/G0Jk93C"><img src="https://i.ibb.co/kxy0J6q/Capture-d-cran-2022-01-23-18-06-28.png" alt="Capture-d-cran-2022-01-23-18-06-28" border="0" /></a>
+
+---
+
+
+<a href="https://ibb.co/jWwkjzf"><img src="https://i.ibb.co/5njhJk4/Capture-d-cran-2022-01-23-18-06-42.png" alt="Capture-d-cran-2022-01-23-18-06-42" border="0" /></a>
+
+---
+
+<a href="https://ibb.co/2PHgVM9"><img src="https://i.ibb.co/Y8wpndC/Capture-d-cran-2022-01-23-18-06-33.png" alt="Capture-d-cran-2022-01-23-18-06-33" border="0" /></a>
+
+---
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
