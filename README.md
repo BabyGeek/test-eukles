@@ -9,7 +9,6 @@
 
 ## About the project
 
-Test réalisé en vue d'un entretien avec l'entreprise Eukles.
 
 
 Téchnologie utilisées :
@@ -23,6 +22,11 @@ Choix pour la base de donnée :
 - Clients => customers (id, firstname, lastname)
 - Matériels => materials (id, title, description, price)
 - Liens => customer_material (id, customer_id, material_id)
+
+Outils : 
+- [uikit](https://getuikit.com)
+- [Select2](https://select2.org)
+- [FontAwesome](https://fontawesome.com)
 
 Pour initialiser le projet :
 
@@ -49,6 +53,20 @@ Pour lancer le serveur local :
 ```
 php artisan serve
 ```
+
+
+Fonctionnalités disponibles :
+
+- Listing des clients par ordonnancement de prix total de matériels
+- Listing des clients avec minimum 30 matériels et chacun minimum 30 000 €
+- Ajouter un client
+- Listing des matériels
+- Ajout d'un matériel
+- Lien entre un matériel et un client
+
+Recherches select2 en ajax pour selection client et matériel
+
+---
 
 
 ## About Laravel
