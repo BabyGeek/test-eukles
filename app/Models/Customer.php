@@ -14,4 +14,10 @@ class Customer extends Model
     protected $fillable = [
         'firstname', 'lastanme'
     ];
+
+
+    public function materials()
+    {
+        return $this->belongsToMany(Material::class)->withTimestamps();
+    }
 }

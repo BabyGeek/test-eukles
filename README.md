@@ -38,8 +38,10 @@ Ajouter des données fake au projet :
 ```php
 $ php artisan tinker
 
->>> Customer::factory()->count(100)->create()
->>> Material::factory()->count(5000)->create()
+>>> Customer::factory()->count(150)->create()
+>>> Material::factory()->count(500)->create()
+>>> CustomerMaterial::factory()->count(5000)->create()
+
 ```
 
 Pour lancer le serveur local : 
