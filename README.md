@@ -7,6 +7,68 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About the project
+
+
+
+Téchnologie utilisées :
+
+- PHP 7.4
+- Laravel 8.8
+
+
+Choix pour la base de donnée :
+
+- Clients => customers (id, firstname, lastname)
+- Matériels => materials (id, title, description, price)
+- Liens => customer_material (id, customer_id, material_id)
+
+Outils : 
+- [uikit](https://getuikit.com)
+- [Select2](https://select2.org)
+- [FontAwesome](https://fontawesome.com)
+
+Pour initialiser le projet :
+
+```
+composer install
+```
+```
+php artisan migrate
+```
+
+Ajouter des données fake au projet :
+
+```php
+$ php artisan tinker
+
+>>> Customer::factory()->count(150)->create()
+>>> Material::factory()->count(500)->create()
+>>> CustomerMaterial::factory()->count(5000)->create()
+
+```
+
+Pour lancer le serveur local : 
+
+```
+php artisan serve
+```
+
+
+Fonctionnalités disponibles :
+
+- Listing des clients par ordonnancement de prix total de matériels
+- Listing des clients avec minimum 30 matériels et chacun minimum 30 000 €
+- Ajouter un client
+- Listing des matériels
+- Ajout d'un matériel
+- Lien entre un matériel et un client
+
+Recherches select2 en ajax pour selection client et matériel
+
+---
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
