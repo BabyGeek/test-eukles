@@ -9,7 +9,7 @@
 
 ## About the project
 
-Téchnologie utilisées :
+Téchnologies utilisées :
 
 - PHP 7.4
 - Laravel 8.8
